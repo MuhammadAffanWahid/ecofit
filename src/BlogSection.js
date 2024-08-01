@@ -43,13 +43,13 @@ const BlogSection = () => {
         </div>
         <div className="col-span-2 mt-8 relative  mb-20">
           <img src={open_arms} alt="Open Arms" className="w-full h-full object-cover rounded-3xl" />
-          <div className="absolute inset-0 flex justify-between items-end px-12 pb-8 text-black">
+          <div className="absolute inset-0 flex justify-between items-end px-8 pb-8 text-black">
             <h2 className="text-[83px] font-bold w-9/12 font-nohemi" style={{ lineHeight: '1' }}>
             <img src={long_arrow_svg} alt="Arrow" className="ml-3 mb-10" />
               FUN OUTDOOR ACTIVITIES TO KEEP YOUR KIDS ACTIVE
             </h2>
-            <button className="bg-white bg-opacity-75 text-gray-900 text-[16px] font-bold px-10 py-4 font-product-sans rounded-full hover:bg-gray-300 transition">
-              Read Blogs <img src={v_arrow_svg} alt="Arrow" className="inline-block" />
+            <button className="bg-white bg-opacity-75 text-gray-900 text-[16px] font-bold px-10 pb-3 pt-4 font-product-sans rounded-full hover:bg-gray-300 transition">
+              READ BLOGS <img src={v_arrow_svg} alt="Arrow" className="inline-block pb-1" />
             </button>
           </div>
         </div>
